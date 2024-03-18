@@ -13,29 +13,19 @@ module.exports = {
   solidity: {
     compilers: [
       {
-        version: "0.8.0",
+        version: "0.8.19",
         settings: {
           optimizer: {
             enabled: true,
             runs: 1000
           }
         }
-      },
-      {
-        version: "0.8.24"
       }
     ],
     overrides: {
       "contracts/Lock.sol": {
-        version: "0.8.0",
+        version: "0.8.19",
         settings: {}
-      }
-    }
-  },
-  networks: {
-    hardhat: {
-      forking: {
-        url: "https://eth-mainnet.alchemyapi.io/v2/<key>"
       }
     }
   }
