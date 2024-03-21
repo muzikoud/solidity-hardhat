@@ -2,15 +2,12 @@
   "name": "hardhat-project",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.4.1",
     "@nomiclabs/hardhat-web3": "^2.0.0",
     "chai": "^4.4.1",
     "ethereum-waffle": "^4.0.10",
-    "ethers": "^5.7.2",
+    "ethers": "^6.11.1",
     "hardhat": "^2.22.1",
     "web3": "^1.10.4"
-  },
-  "dependencies": {
-    "solc": "^0.8.25"
   }
 }

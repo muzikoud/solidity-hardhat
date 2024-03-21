@@ -22,21 +22,8 @@ module.exports = {
         }
       },
       {
-        version: "0.8.24"
+        version: "0.8.0"
       }
-    ],
-    overrides: {
-      "contracts/Lock.sol": {
-        version: "0.8.0",
-        settings: {}
-      }
-    }
-  },
-  networks: {
-    hardhat: {
-      forking: {
-        url: "https://eth-mainnet.alchemyapi.io/v2/<key>"
-      }
-    }
+    ]
   }
 }
